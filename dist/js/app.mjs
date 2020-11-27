@@ -19,7 +19,6 @@ const saveInLocalStorage = (task) => {
 }
 
 export const addTask = (input, list) => {
-    // console.log(input.value)
 
     const taskName = input.value
     input.value = ""
@@ -69,8 +68,6 @@ export const changeStatus = (todoListItem, checkbox) => {
         todoListItem.classList.remove('done')
         changeStatusInLocalStorage(taskName, "active")
     }
-
-    // console.log(checkbox.checked)
 }
 
 
@@ -89,5 +86,3 @@ tasks.forEach((e) => {
 }
 
 startApp()
-
-// poprawić css po przeanalizowaniu

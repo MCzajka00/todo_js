@@ -1,6 +1,6 @@
-function add(x, y){
-    return x + y
-}
+// function add(x, y){
+//     return x + y
+// }
 
-let a = 5
-add(a, 10)
+// let a = 5
+// add(a, 10)
